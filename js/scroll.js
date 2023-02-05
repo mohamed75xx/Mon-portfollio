@@ -36,7 +36,18 @@ const btn4 = document.querySelector('.MYPORTFOLLIO');
 btn4.addEventListener('click', () => {
 
     window.scrollTo({
-        top:1990,
+        top:2000,
+        left: 0,
+        behavior:"smooth"
+    })
+})
+
+const btn100 = document.querySelector('.MESPROJETS');
+
+btn100.addEventListener('click', () => {
+
+    window.scrollTo({
+        top:2000,
         left: 0,
         behavior:"smooth"
     })

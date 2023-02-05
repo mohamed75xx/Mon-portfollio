@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
+   
 }
 body
 {
     min-height: 1100px ;
-   
+    font-family: 'Times New Roman CE' sans-serif;
 }
 
 
@@ -108,6 +108,7 @@ nav ul li a{
     padding: 10px 15px;
     font-size: 1.2em;
     text-decoration: none;
+    cursor: pointer;
 }
 
 nav ul li a:hover{

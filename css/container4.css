@@ -1,5 +1,8 @@
+
+
 footer
 {
+   
     position: relative;
     width: 100%;
      background-color: white;
@@ -11,6 +14,7 @@ footer
      flex-direction: column;
      margin-top: 600px;
 }
+
 
 
 footer .social

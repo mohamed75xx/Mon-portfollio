@@ -45,6 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+   
 }
 
 .container2 ul
@@ -52,6 +53,7 @@ body{
     position: relative;
     transform: skewY(-15deg);
     margin-bottom: 100px;
+    
 
 }
 
@@ -65,6 +67,7 @@ body{
    z-index: var(--i);
    transition: 0.5s;
    top: -105px;
+   
 }
 
 
@@ -73,6 +76,7 @@ body{
 {
     background: rgb(197, 218, 250);
    transform: translateX(-40px);
+   
 }
 
 .container2 ul li:hover::before 
@@ -138,9 +142,10 @@ body{
 {
     width: 280px;
     position: relative;
-    right: 838px;
+    right: 837px;
     top: 17px;
     z-index: -10000;
+    
 }
 
 @media (max-width:1150px)
@@ -148,7 +153,7 @@ body{
 
     .tout
     {
-        margin-left: 5%;
+        margin: 5%;
     }
 
     .container2 ul li:hover
@@ -218,4 +223,48 @@ body{
     {
     display: none;
     }
+}
+
+@media (max-width:950px)
+{
+
+    .container2
+{
+   
+}
+
+    .container2 .class
+    {
+        display: flexbox;
+        position: relative;
+        top: 60px;
+        right:315px;
+      
+    }
+
+    .vrmntout
+    {
+      
+    }
+    
+    .container2 ul 
+    {
+        position: relative;
+        top: -460px;
+        left: 370px;
+       border:none; 
+       display: flex;
+       background-color: rgb(31, 95, 191);
+       margin: 0;
+       
+      
+    }
+
+    .container2 ul li
+    {
+        width: 15vmax;
+        padding: 10px;
+        
+    }
+
 }
