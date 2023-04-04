@@ -30,11 +30,11 @@
             <div class="toggle"></div>
             <nav>
                 <ul>
-                    <li><a class="HOME">Home</a></li>
-                    <li><a class="ABOUTME">About me</a></li>
-                    <li><a class="RESUME">Resume</a></li>
-                    <li><a class="MYPORTFOLLIO">My Portfollio</a></li>
-                    <li><a class="CONTACTME">Contact me</a></li>
+                    <li><a class="HOME">Acceuil</a></li>
+                    <li><a class="ABOUTME">À propos</a></li>
+                    <li><a class="RESUME">Résumé</a></li>
+                    <li><a class="MYPORTFOLLIO">Mes Projets</a></li>
+                    <li><a class="CONTACTME">Contactez moi</a></li>
                 </ul>
             </nav>
             <html>
@@ -78,16 +78,16 @@
        <div class="res"> <div id="container2" class="ligne"></div></div>
 
         <section class="container2">
-            <h3>Resume</h3>
+            <h3>Résumé</h3>
 
           
             <div class="tout">
           <ul>
-            <li style="--i:5;" id="d1"><a>Education</a></li>
-            <li style="--i:4;" id="d2"><a>Work history</a></li>
-            <li style="--i:3;" id="d3" class="PSS"><a>Progamming skills</a></li>
-            <li style="--i:2;" id="d4"><a>Projects</a></li>
-            <li style="--i:1;" id="d5"><a>Interests</a></li>
+            <li style="--i:5;" id="d1"><a>Éducation</a></li>
+            <li style="--i:4;" id="d2"><a>Éxperience</a></li>
+            <li style="--i:3;" id="d3" class="PSS"><a>COMPÉTENCES EN PROGRAMMATION</a></li>
+            <li style="--i:2;" id="d4"><a>Projets</a></li>
+            <li style="--i:1;" id="d5"><a>Intérêt</a></li>
           </ul>
           
          
@@ -209,19 +209,23 @@
             <img src="./logo/Choppeur.png" class="choppeur">
 
          </div>
+
+
         </section>
          
         <div class="MPP"><div id="container3" class="ligne"></div></div>
 
         <section id="container3" class="container3">
-            <h3>My Portfollio</h3>
+            <h3>Mes Projets</h3>
 
 
             <input type="radio" name="slider" class="d-none" id="s1" checked>
             <input type="radio" name="slider" class="d-none" id="s2">
-
+            <input type="radio" name="slider" class="d-none" id="s3">
+            <input type="radio" name="slider" class="d-none" id="s4">
             <input type="radio" name="slider" class="d-none" id="s5">
-        
+            <input type="radio" name="slider" class="d-none" id="s6">
+
             <div class="cards">
 
               <label for="s1" id="slide1">
@@ -232,12 +236,13 @@
                     </div>
                   </div>
                   <div class="infos">
-                    <span class="nameCCW">Code Camp Web</span>
-                    <span class="lorem">Créez un blog pour Mentor Goal afin de partager des ressources et articles dédiées à la recherche d’emploi</span>
+                    <span class="nameCCW">Mentor Goal</span>
+                    <span class="lorem">C
+                        Créer un blog pour Mentor Goal avec une interface d'administration pour ajouter/modifier du contenu. Utiliser Strapi pour la partie back-end et CMS. Les articles seront filtrables par catégorie et la qualité du design, de la fonctionnalité et du SEO seront notées.
                   </div>
 
 
-                     <a href="#popup1" class="btn-contact">details</a>
+                   
                      <div class="socials">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -246,36 +251,25 @@
                   </div>
                 </div>
               </label>
-              <div id="popup1" class="overlay">
-                <div class="popup">
-               <a href="#s1" class="cross">&times;</a>
-                <div class="Détails1">
-                  <p>Créez un blog pour Mentor Goal afin de partager des ressources et articles dédiées à la recherche d’emploi.
-                    <br> 
-                  </p>
-                 <div class="photoMG">
-                  <img clas="MGimg" src="./photo/Image1mentoargoal.png" >
-                  <img src="./photo/ecranMG.png">
-                </div>
-              </div>
-              </div>
-            </div>
-
-                    
+            
+            
               <label for="s2" id="slide2">
                 <div class="card">
                   <div class="image">
-                    <img src="./logo/logoAPI.jpeg" >
+                    <img src="./logo/logoAPI.jpeg">
                     <div class="dots">
                     </div>
                   </div>
                   <div class="infos">
-                    <span class="name">My API</span>
-                    <span class="lorem">Ce projet est la première partie d'un cours de 7 semaines sur le développement web....</span>
+                    <span class="name">Code Camp</span>
+                    <span class="lorem">
+                        Création d'un outil de suivi des élèves pour l'équipe pédagogique de l'ETNA avec MongoDB, ExpressJS pour le back-end et React/NextJS pour le front-end. Notre projet facilite le suivi par promotion et les rendez-vous individuels des élèves.
+                        MyAPI
+                    </span>
                   </div>
 
 
-                  <a href="#popup2" class="btn-contact">details</a>
+                 
                   <div class="socials">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -284,26 +278,8 @@
                   </div>
                 </div>
               </label>
-              <div id="popup2" class="overlay">
-                  <div class="popup">
-                 <a href="#s1" class="cross">&times;</a>
-                  <div class="Détails1">
-                    <p>Ce projet est la première partie d'un cours de 7 semaines sur le développement web.
-                      Pendant ce temps, nous avons appris les bases de la création de sites Web, de la création d'une API à son utilisation avec une application Web frontale.
-                      Nous avions utiliser le contexte d'un site e-commerce, sur lequel nous vendon les produits de votre choix.
-                      Ce projet particulier se concentre sur l'aspect back-end, avec la création d'une API.<br> 
-                    </p>
-                   <div class="photoMG">
-                    <img clas="MGimg" src="./photo/shémacodeback.png" >
-                    <img src="./photo/shémaback.png">
-                  </div>
-                </div>
-                </div>
-              </div>
-
             
-        
-              <label for="s5" id="slide5">
+              <label for="s3" id="slide3">
                 <div class="card">
                   <div class="image">
                     <img src="./logo/logoTMN.jpeg">
@@ -312,10 +288,10 @@
                   </div>
                   <div class="infos">
                     <span class="name">MY Website</span>
-                    <span class="lorem">Création d'un site e-commerce où nous vendons les produits que l'on veut. Dans mon cas, c'était un site...
-                    </span>
+                    <span class="lorem">
+                        Développer un site d'e-commerce avec NextJS (basé sur ReactJS) en utilisant Axios pour faire des requêtes à une API et parser des données JSON. Utiliser l'API développée pendant le projet TIC-API1 et suivre le workflow Git en séparant le projet en étapes avec des demandes de validation.                    </span>
                   </div>
-                  <a href="#popup3" class="btn-contact">details</a>
+                  
                   <div class="socials">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -324,19 +300,55 @@
                   </div>
                 </div>
               </label>
-              <div id="popup3" class="overlay">
-                <div class="popup">
-               <a href="#s1" class="cross">&times;</a>
-                <div class="Détails1">
-                  <p>Création d'un site e-commerce où nous vendons les produits que l'on veut. Dans mon cas, c'était un site de voiture de luxe.
-                    <br> 
-                  </p>
-                 <div class="photoMG">
-                  <img clas="MGimg" src="./photo/cataloguetmn.png" >
-                  <img src="./photo/codetmn.png">
-                </div>
-            </div>
         
+              <label for="s4" id="slide4">
+                <div class="card">
+                  <div class="image">
+                    <img src="./photo/Kotlin-650x341.png">
+                    <div class="dots">
+                    </div>
+                  </div>
+                  <div class="infos">
+                    <span class="name">Kotlin 101</span>
+                    <span class="lorem">
+                        Le but du projet est de créer une application de Géographie dans laquelle vous allez lister les différents pays du monde et afficher des informations sur chaque pays. Pour ce faire, vous allez utiliser l'API restcountries qui vous fournira les informations dont vous avez besoin.
+                    </span>
+                  </div>
+                  
+                  <div class="socials">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                </div>
+              </label>
+
+              <label for="s5" id="slide5">
+                <div class="card">
+                  <div class="image">
+                    <img src="./photo/Etna.png">
+                    <div class="dots">
+                    </div>
+                  </div>
+                  <div class="infos">
+                    <span class="name">Défi ETNA</span>
+                    <span class="lorem">
+                        Appli iOS pour tablettes ETNA automatisant l'émargement étudiant en présentiel avec reconnaissance visages/codes QR, synchro de données, rapports d'émargement et notifs. Objectif : améliorer efficacité pôle suivi.                  </div>
+                  
+                  <div class="socials">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                </div>
+              </label>
+
+            </div>
+            
+        
+           
         </section>
 
         <div id="container4" class="ligne"></div>
